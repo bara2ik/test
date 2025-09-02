@@ -41,6 +41,7 @@ while n in range(int(gameno)):
         else:
             print("Invalid input. Please enter 'h' or 's'.")
     if total > 21:
+
         continue   
     hand1 = []
     hand1.append(deck.pop())
